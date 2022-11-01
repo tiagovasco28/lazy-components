@@ -12,6 +12,9 @@ import { ComponentCComponent } from './components/component-c/component-c.compon
 // angular material modules
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
+import { DialogOneComponent } from './components/dialog-one/dialog-one.component';
+import { DialogTwoComponent } from './components/dialog-two/dialog-two.component';
+import {MatDialogModule} from '@angular/material/dialog';
 
 @NgModule({
   declarations: [
@@ -20,6 +23,8 @@ import {MatButtonModule} from '@angular/material/button';
     ComponentAComponent,
     ComponentBComponent,
     ComponentCComponent,
+    DialogOneComponent,
+    DialogTwoComponent,
 
   ],
   imports: [
@@ -28,6 +33,7 @@ import {MatButtonModule} from '@angular/material/button';
     BrowserAnimationsModule,
     MatButtonModule,
     MatIconModule,
+    MatDialogModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
